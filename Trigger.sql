@@ -1,7 +1,7 @@
 CREATE TRIGGER Proxima_Dosis
 ON 
 	Paciente_Vacuna_Centro
-FOR 
+INSTEAD OF 
 	INSERT
 AS
 	declare
