@@ -1,8 +1,8 @@
 CREATE TRIGGER Proxima_Dosis
 ON 
 	Paciente_Vacuna_Centro
-INSTEAD OF 
-	INSERT
+FOR
+	INSERT, UPDATE
 AS
 	declare
 		@fecha_dosis date,
